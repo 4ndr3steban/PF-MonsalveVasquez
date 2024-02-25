@@ -20,11 +20,6 @@ img{
     display: flex;
 }
 
-.test-img {
-    width: 200px;
-    height: 200px;
-}
-
 a{
     text-decoration: none;
 }
@@ -150,16 +145,11 @@ section .headTitle{
     font-weight: 600;
 }
 
-.features{
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-}
-
-.features .card img{
-    max-width: 400px;
-    max-height: 300px;
+.card{
+    margin-top: 1.5rem;
+    border: 4px solid rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #9649cbff;
 }
 
 footer{
@@ -216,9 +206,22 @@ footer .column > a{
 
 /* inicia las media queries */
 
-@media only screen and (min-width:480px) {
+@media only screen and (min-width:768px) {
 
     .content, .image-main{
         width: 48%;
+    }
+}
+
+@media (width < 900px){
+    footer{
+        grid-template-columns: 1fr 200px;
+    }
+}
+
+
+@media (width < 600px){
+    footer{
+        grid-template-columns: 1fr 150px;
     }
 }
