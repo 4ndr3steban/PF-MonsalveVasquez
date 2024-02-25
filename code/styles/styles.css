@@ -1,0 +1,224 @@
+/* CSS HEX
+--black-olive: #292e1eff;
+--mauveine: #7f0799ff;
+--purpureus: #9649cbff;
+--periwinkle: #afbbf2ff;
+--mint-green: #d3fff3ff; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: flex;
+}
+
+.test-img {
+    width: 200px;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #afbbf2ff;
+}
+
+header{
+    background-color: #9649cbff;
+    border-bottom: 10px solid transparent;
+    border-image: linear-gradient( #9649cbff 99.6%, #afbbf2ff 100%) 0.5; 
+}
+
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+.logo{
+    font-size: 23px;
+    font-size: 23px;
+    text-transform: capitalize;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+
+.logo span{
+    color: #333;
+}
+
+.nav-item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+.nav-item .nav-link{
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #292e1eff;
+}
+
+
+.btn{
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #7f0799ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.containter-head{
+    padding-top: 2rem;
+    align-items: center;
+    padding: 5rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    width: 100%;
+    padding: 20px;
+}
+
+.image-main{
+    width: 100%;
+    min-height: 350px;
+    background-color: #333;
+    background-image: url(../static/general.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+hr{
+    margin: 2rem 5rem;
+    height: 3px;
+    background-color: rgb(194, 201, 232);
+    border: none;
+}
+
+.containter-head .content h1{
+    color: #292e1eff;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.containter-head .content h1 span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px #292e1eff;
+}
+
+.containter-head .content p{
+    margin-bottom: 2rem;
+    color: #292e1eff;
+}
+
+.containter-head .image{
+    position: relative;
+}
+
+section .headTitle{
+    margin-bottom: 1rem;
+    color: #292e1eff;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.features{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.features .card img{
+    max-width: 400px;
+    max-height: 300px;
+}
+
+footer{
+    background-color: #9649cbff;
+    border-top: 10px solid transparent;
+    border-image: linear-gradient(#afbbf2ff 0.05%, #9649cbff 0.5%) 0.5;
+    margin-top: 5rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 400px repeat(3, 1fr);
+}
+
+footer .column .logo{
+    max-width: 150px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+footer .column .socials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer .column .socials a i{
+    font-size: 2rem;
+    color: rgb(40, 4, 48);
+}
+
+footer .column h3{
+    color: #292e1eff;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+footer .column > a{
+    display: block;
+    color: #292e1eff;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.copyright{
+    margin: auto;
+    padding: 1rem;
+    color: #292e1eff;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #7f0799ff;
+}
+
+
+/* inicia las media queries */
+
+@media only screen and (min-width:480px) {
+
+    .content, .image-main{
+        width: 48%;
+    }
+}
