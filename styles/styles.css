@@ -186,6 +186,29 @@ section .headTitle{
     background-position: center;
 }
 
+.entertainment{
+    margin-bottom: 7rem;
+}
+
+.left-ent{
+    border-right: #9649cbff solid 3px;
+}
+
+.right-ent{
+    border-left: #9649cbff solid 3px;
+    padding-left: 5rem;
+}
+
+.carousel-cont {
+    margin-top: 4rem;
+    height: auto;
+    width: 800px;
+}
+
+.text-carousel {
+    padding: 3rem;
+}
+
 footer{
     background-color: #9649cbff;
     border-top: 10px solid transparent;
@@ -250,6 +273,13 @@ footer .column > a{
 @media (width < 900px){
     footer{
         grid-template-columns: 1fr 200px;
+    }
+    .left-ent{
+        border-right: none;
+    }
+    
+    .right-ent{
+        border-left: none;
     }
 }
 
