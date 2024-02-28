@@ -152,6 +152,40 @@ section .headTitle{
     box-shadow: 0 0 10px #9649cbff;
 }
 
+
+.intro-skills{
+    padding-top: 2rem;
+    padding: 5rem 2rem;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    background-image: url(../static/test.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.intro-skills .headTitle{
+    color: #fff;
+}
+
+.intro-skills .text-intro{
+    padding: 2rem 8rem;
+}
+
+.progress{
+    margin: 2rem 1rem;
+}
+
+.aboutme{
+    width: 100%;
+    min-height: 350px;
+    background-color: #333;
+    background-image: url(../static/test.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 footer{
     background-color: #9649cbff;
     border-top: 10px solid transparent;
@@ -223,5 +257,9 @@ footer .column > a{
 @media (width < 600px){
     footer{
         grid-template-columns: 1fr 150px;
+    }
+
+    .intro-skills .text-intro{
+        padding: 2rem 3rem;
     }
 }
