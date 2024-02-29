@@ -209,6 +209,18 @@ section .headTitle{
     padding: 3rem;
 }
 
+.cards-portafolio {
+    margin-bottom: 4rem;
+}
+
+.galeria-logos .img-fluid{
+    border-radius: 50%;
+    max-width: 200px;
+    margin-top: 2rem;
+}
+
+
+
 footer{
     background-color: #9649cbff;
     border-top: 10px solid transparent;
