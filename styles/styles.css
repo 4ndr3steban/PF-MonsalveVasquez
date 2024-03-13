@@ -115,7 +115,7 @@ header{
     width: 100%;
     min-height: 350px;
     background-color: #333;
-    background-image: url(../static/general.jpg);
+    background-image: url(../static/general.webp);
     background-size: cover;
     background-position: center;
 }
@@ -163,6 +163,11 @@ section .headTitle{
     box-shadow: 0 0 10px #9649cbff;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 300px;
+  }
+
 
 .intro-skills{
     padding-top: 2rem;
@@ -170,7 +175,7 @@ section .headTitle{
     width: 100%;
     text-align: center;
     background-color: #333;
-    background-image: url(../static/test.jpg);
+    background-image: url(../static/skills-main.webp);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -182,6 +187,12 @@ section .headTitle{
 
 .intro-skills .text-intro{
     padding: 2rem 8rem;
+    font-size: 20px;
+}
+
+
+.image-skills{
+    background-image: url(../static/skills-second.webp);
 }
 
 .progress{
@@ -192,7 +203,7 @@ section .headTitle{
     width: 100%;
     min-height: 350px;
     background-color: #333;
-    background-image: url(../static/test.jpg);
+    background-image: url(../static/aboutme-main.webp);
     background-size: cover;
     background-position: center;
 }
@@ -238,9 +249,13 @@ section .headTitle{
     width: 100%;
     min-height: 350px;
     background-color: #333;
-    background-image: url(../static/test.jpg);
+    background-image: url(../static/contacto-main.webp);
     background-size: cover;
     background-position: center;
+}
+
+.contactmeback h1{
+    font-size: 70px;
 }
 
 .titlecontact {
@@ -256,6 +271,10 @@ section .headTitle{
     margin-left: 3rem;
     margin-right: 6rem;
     margin-bottom: 3rem;
+}
+
+.image-contact{
+    background-image: url(../static/contacto-second.webp);
 }
 
 footer{
