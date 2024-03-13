@@ -230,6 +230,10 @@ section .headTitle{
     margin-top: 2rem;
 }
 
+.galeria .textimg p{
+    margin-left: 4.2rem;
+}
+
 .contactmeback{
     width: 100%;
     min-height: 350px;
