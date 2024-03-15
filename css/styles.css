@@ -1,0 +1,322 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #afbbf2;
+}
+
+header {
+  background-color: #9649cb;
+  border-bottom: 10px solid transparent;
+  border-image: linear-gradient(#9649cb 99.6%, #afbbf2 100%) 0.5;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.navbar .nav-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  margin-left: 2rem;
+}
+.navbar .nav-item .nav-link {
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.75rem;
+  color: #292e1e;
+}
+
+.logo {
+  font-size: 23px;
+  text-transform: capitalize;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+.logo span {
+  color: #333;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7f0799;
+  color: white;
+}
+.btn:hover {
+  background-color: #570568;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(160, 160, 160);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.containter-head {
+  padding-top: 2rem;
+  align-items: center;
+  padding: 5rem 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  width: 100%;
+  padding: 20px;
+}
+.content h1 {
+  color: #292e1e;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.content h1 span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1.5px #292e1e;
+}
+.content p {
+  margin-bottom: 2rem;
+  color: #292e1e;
+}
+
+.image-main {
+  width: 100%;
+  min-height: 350px;
+  background-color: #333;
+  background-image: url(../static/general.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+hr {
+  margin: 2rem 5rem;
+  height: 3px;
+  background-color: rgb(194, 201, 232);
+  border: none;
+}
+
+section .headTitle {
+  margin-bottom: 1rem;
+  color: #292e1e;
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+section .card {
+  margin-top: 1.5rem;
+  border: 4px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px #9649cb;
+}
+section .card-img-top {
+  width: 100%;
+  height: 300px;
+}
+
+.intro-skills {
+  padding-top: 2rem;
+  padding: 5rem 2rem;
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  background-image: url(../static/skills-main.webp);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+.intro-skills .headTitle {
+  color: #fff;
+}
+.intro-skills .text-intro {
+  padding: 2rem 8rem;
+  font-size: 20px;
+}
+
+.image-skills {
+  background-image: url(../static/skills-second.webp);
+}
+
+.progress {
+  margin: 2rem 1rem;
+}
+
+.aboutme {
+  width: 100%;
+  min-height: 350px;
+  background-color: #333;
+  background-image: url(../static/aboutme-main.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.entertainment {
+  margin-bottom: 7rem;
+}
+.entertainment .left-ent {
+  border-right: #9649cb solid 3px;
+}
+.entertainment .right-ent {
+  border-left: #9649cb solid 3px;
+  padding-left: 5rem;
+}
+
+.carousel-cont {
+  margin-top: 4rem;
+  height: auto;
+  width: 800px;
+}
+
+.text-carousel {
+  padding: 3rem;
+}
+
+.cards-portafolio {
+  margin-bottom: 4rem;
+}
+
+.galeria-logos .img-fluid {
+  border-radius: 50%;
+  max-width: 200px;
+  margin-top: 2rem;
+}
+
+.galeria .textimg p {
+  margin-left: 4.2rem;
+  text-shadow: 0 0 5px #fff;
+}
+
+/* Estilos para el formulario de contacto */
+.contactmeback {
+  width: 100%;
+  min-height: 350px;
+  background-color: #333;
+  background-image: url(../static/contacto-main.webp);
+  background-size: cover;
+  background-position: center;
+}
+.contactmeback h1 {
+  font-size: 70px;
+  text-shadow: 0 0 5px #000;
+}
+
+/* Estilos para el título de contacto */
+.titlecontact {
+  margin-bottom: 1rem;
+  padding-top: 3rem;
+  color: #fff;
+  text-align: left;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+/* Estilos para el formulario de contacto */
+.contactform {
+  margin-left: 3rem;
+  margin-right: 6rem;
+  margin-bottom: 3rem;
+}
+
+/* Estilos para la imagen de contacto */
+.image-contact {
+  background-image: url(../static/contacto-second.webp);
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #9649cb;
+  border-top: 10px solid transparent;
+  border-image: linear-gradient(#afbbf2 0.05%, #9649cb 0.5%) 0.5;
+  margin-top: 5rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: 400px repeat(3, 1fr);
+}
+footer .column .logo {
+  max-width: 150px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+footer .column .socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+footer .column .socials a i {
+  font-size: 2rem;
+  color: rgb(40, 4, 48);
+}
+footer .column h3 {
+  color: #292e1e;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+footer .column > a {
+  display: block;
+  color: #292e1e;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+/* Estilos para el texto de derechos de autor */
+.copyright {
+  margin: auto;
+  padding: 1rem;
+  color: #292e1e;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: #7f0799;
+}
+
+@media only screen and (min-width: 768px) {
+  .content, .image-main {
+    width: 48%;
+  }
+}
+@media (width < 900px) {
+  footer {
+    grid-template-columns: 1fr 200px;
+  }
+  .left-ent {
+    border-right: none;
+  }
+  .right-ent {
+    border-left: none;
+  }
+}
+@media (width < 600px) {
+  footer {
+    grid-template-columns: 1fr 150px;
+  }
+  .intro-skills .text-intro {
+    padding: 2rem 3rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
