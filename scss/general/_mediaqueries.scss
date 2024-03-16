@@ -1,0 +1,32 @@
+@media only screen and (min-width:768px) {
+
+    .content,
+    .image-main {
+        width: 48%;
+    }
+}
+
+@media (width < 900px) {
+    footer {
+        grid-template-columns: 1fr 200px;
+    }
+
+    .left-ent {
+        border-right: none;
+    }
+
+    .right-ent {
+        border-left: none;
+    }
+}
+
+
+@media (width < 600px) {
+    footer {
+        grid-template-columns: 1fr 150px;
+    }
+
+    .intro-skills .text-intro {
+        padding: 2rem 3rem;
+    }
+}

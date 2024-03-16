@@ -1,0 +1,32 @@
+.aboutme {
+    width: 100%;
+    min-height: 350px;
+    background-color: #333;
+    background-image: url(../static/aboutme-main.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.entertainment {
+    margin-bottom: 7rem;
+
+    .left-ent {
+        border-right: $purpureus solid 3px;
+    }
+
+    .right-ent {
+        border-left: $purpureus solid 3px;
+        padding-left: 5rem;
+    }
+}
+
+.carousel-cont {
+    margin-top: 4rem;
+    height: auto;
+    width: 800px;
+}
+
+.text-carousel {
+    padding: 3rem;
+}

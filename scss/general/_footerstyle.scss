@@ -1,0 +1,53 @@
+footer {
+    background-color: $purpureus;
+    border-top: 10px solid transparent;
+    border-image: linear-gradient($periwinkle 0.05%, $purpureus 0.5%) 0.5;
+    margin-top: 5rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 400px repeat(3, 1fr);
+
+    .column {
+        .logo {
+            max-width: 150px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+        }
+
+        .socials {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            a i {
+                font-size: 2rem;
+                color: rgb(40, 4, 48);
+            }
+        }
+
+        h3 {
+            color: $black-olive;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        > a {
+            display: block;
+            color: $black-olive;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+        }
+    }
+}
+
+/* Estilos para el texto de derechos de autor */
+.copyright {
+    margin: auto;
+    padding: 1rem;
+    color: $black-olive;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: $mauveine;
+}

@@ -1,0 +1,29 @@
+.intro-skills {
+    padding-top: 2rem;
+    padding: 5rem 2rem;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    background-image: url(../static/skills-main.webp);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+
+    .headTitle {
+        color: #fff;
+    }
+
+    .text-intro {
+        padding: 2rem 8rem;
+        font-size: 20px;
+    }
+}
+
+.image-skills {
+    background-image: url(../static/skills-second.webp);
+}
+
+.progress {
+    margin: 2rem 1rem;
+}
