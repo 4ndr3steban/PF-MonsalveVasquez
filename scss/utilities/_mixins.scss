@@ -1,0 +1,7 @@
+@mixin sombra-texto($tamaño, $color) {
+    text-shadow: 0 0 $tamaño $color;
+  }
+
+@mixin sombra-caja($tamaño, $color) {
+    box-shadow: 0 0 $tamaño $color;
+  }

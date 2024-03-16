@@ -7,8 +7,8 @@
     background-position: center;
 
     h1 {
-        font-size: 70px;
-        text-shadow: 0 0 5px #000;
+        font-size: map-get($tamanios-fuentes, titulo);
+        @include sombra-texto(5px, #000);
     }
 }
 
@@ -17,7 +17,7 @@
     padding-top: 3rem;
     color: #fff;
     text-align: left;
-    font-size: 2.25rem;
+    font-size: map-get($tamanios-fuentes, titulo);
     font-weight: 600;
 }
 

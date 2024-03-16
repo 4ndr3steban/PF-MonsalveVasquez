@@ -3,12 +3,12 @@
 }
 
 .galeria-logos .img-fluid {
-    border-radius: 50%;
+    @extend %bordes-logos;
     max-width: 200px;
     margin-top: 2rem;
 }
 
 .galeria .textimg p {
     margin-left: 4.2rem;
-    text-shadow: 0 0 5px #fff;
+    @include sombra-texto(5px, #fff);
 }

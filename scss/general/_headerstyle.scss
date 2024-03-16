@@ -51,10 +51,10 @@ header {
 }
 
 .logo {
-    font-size: 23px;
+    font-size: map-get($tamanios-fuentes, logo);
     text-transform: capitalize;
     color: #fff;
-    text-shadow: 0 0 5px #000;
+    @include sombra-texto(5px, #000);
 
     span {
         color: #333;
@@ -64,14 +64,14 @@ header {
 .btn {
     padding: 10px 30px;
     border: none;
-    border-radius: 5px;
+    @extend %bordes-card;
     background-color: $mauveine;
     color: white;
 
     &:hover {
         background-color: darken($mauveine, 10%);
         cursor: pointer;
-        box-shadow: 0 0 10px rgb(160, 160, 160);
+        @include sombra-caja(10px, rgb(160, 160, 160));
         transform: scale(1.05);
         transition: all 0.3s ease;
     }
