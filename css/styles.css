@@ -54,7 +54,7 @@ header {
   font-weight: 600;
   position: relative;
   padding-bottom: 0.75rem;
-  color: #292e1e;
+  color: #d3fff3;
 }
 
 .logo {
@@ -64,7 +64,7 @@ header {
   text-shadow: 0 0 5px #000;
 }
 .logo span {
-  color: #333;
+  color: #d3fff3;
 }
 
 .btn {
@@ -102,10 +102,10 @@ footer .column .socials {
 }
 footer .column .socials a i {
   font-size: 2rem;
-  color: rgb(40, 4, 48);
+  color: #d3fff3;
 }
 footer .column h3 {
-  color: #292e1e;
+  color: #d3fff3;
   margin-bottom: 2rem;
   margin-top: 1rem;
   font-size: 1.2rem;
@@ -113,7 +113,7 @@ footer .column h3 {
 }
 footer .column > a {
   display: block;
-  color: #292e1e;
+  color: #d3fff3;
   margin-bottom: 1rem;
   transition: all 0.3s ease;
 }
@@ -122,7 +122,7 @@ footer .column > a {
 .copyright {
   margin: auto;
   padding: 1rem;
-  color: #292e1e;
+  color: #d3fff3;
   font-size: 0.8rem;
   text-align: center;
   background-color: #7f0799;
@@ -271,6 +271,7 @@ section .card-img-top {
 }
 .contactmeback h1 {
   font-size: 3rem;
+  color: #fff;
   text-shadow: 0 0 5px #000;
 }
 
@@ -284,13 +285,15 @@ section .card-img-top {
 }
 
 .contactform {
-  margin-left: 3rem;
+  margin-left: 2rem;
   margin-right: 6rem;
   margin-bottom: 3rem;
+  max-width: 70rem;
 }
 
 .image-contact {
   background-image: url(../static/contacto-second.webp);
+  max-width: 500px;
 }
 
 @media only screen and (min-width: 768px) {

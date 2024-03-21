@@ -8,6 +8,7 @@
 
     h1 {
         font-size: map-get($tamanios-fuentes, titulo);
+        color: #fff;
         @include sombra-texto(5px, #000);
     }
 }
@@ -22,11 +23,13 @@
 }
 
 .contactform {
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-right: 6rem;
     margin-bottom: 3rem;
+    max-width: 70rem;
 }
 
 .image-contact {
     background-image: url(../static/contacto-second.webp);
+    max-width: 500px;
 }

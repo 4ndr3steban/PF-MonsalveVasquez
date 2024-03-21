@@ -45,7 +45,7 @@ header {
             font-weight: 600;
             position: relative;
             padding-bottom: 0.75rem;
-            color: $black-olive;
+            color: $mint-green;
         }
     }
 }
@@ -57,7 +57,7 @@ header {
     @include sombra-texto(5px, #000);
 
     span {
-        color: #333;
+        color: $mint-green;
     }
 }
 
